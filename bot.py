@@ -9,6 +9,8 @@ import sys
 symbol = "VET/USDT"
 symbol_stripped = str(symbol).replace('/','')
 symbol_tokens = symbol.split('/')
+# The socket streams 1min candles, if you desire a different candle period, 
+# change kline_1m to kline_3m, kline_5m, or kline_15m
 SOCKET = "wss://stream.binance.com:9443/ws/%s@kline_1m" % symbol_stripped.lower() 
 PERIOD = 14
 RSI_BUY = 30
