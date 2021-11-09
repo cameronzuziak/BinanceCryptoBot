@@ -49,7 +49,7 @@ Set Up:
   STOP_LOSS_PERCENT = .02 # Percentage in price change to trigger stop loss, default 2 percent.
 
   PROFIT_TAKE = .01       # This is the profit take percentage, when in a position, the bot will exit 
-                        # exit the position at 1% profit. Change accordingly. 
+                          # exit the position at 1% profit. Change accordingly. 
   
 7. Run bot
   python3 bot.py
