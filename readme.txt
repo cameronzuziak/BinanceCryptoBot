@@ -41,14 +41,14 @@ Set Up:
   
 6. Set variables in bot.py:
 
-symbol = "VET/USDT"     # Defualt is Vechain. This is your coinpairing to be traded, 
-                        # represented as the asset ticker then '/' and then the denomination.
+  symbol = "VET/USDT"     # Defualt is Vechain. This is your coinpairing to be traded, 
+                          # represented as the asset ticker then '/' and then the denomination.
                         
-RSI_BUY = 30            # This is the RSI threshold for entering a position
+  RSI_BUY = 30            # This is the RSI threshold for entering a position
 
-STOP_LOSS_PERCENT = .02 # Percentage in price change to trigger stop loss, default 2 percent.
+  STOP_LOSS_PERCENT = .02 # Percentage in price change to trigger stop loss, default 2 percent.
 
-PROFIT_TAKE = .01       # This is the profit take percentage, when in a position, the bot will exit 
+  PROFIT_TAKE = .01       # This is the profit take percentage, when in a position, the bot will exit 
                         # exit the position at 1% profit. Change accordingly. 
   
 7. Run bot
